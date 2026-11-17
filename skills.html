@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Technical Skills & Technologies of Snehamol Shiju">
+  <title>Skills | Snehamol Shiju</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function(){
+      const saved = localStorage.getItem('portfolio-theme');
+      if(saved === 'light' || (!saved && window.matchMedia('(prefers-color-scheme: light)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a class="logo" href="index.html">
+        <span class="logo-badge">SS</span>
+        <span class="logo-name">Sneha<span class="gradient-text">.dev</span></span>
+      </a>
+      <div class="nav-right">
+        <div class="navlinks">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a class="active" href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="education.html">Education</a>
+          <a href="certifications.html">Certifications</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark / Light theme" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="kicker">02 / MY TOOLKIT</div>
+        <h1>Skills &amp; <span class="gradient-text">Technologies</span></h1>
+        <p>A comprehensive overview of my technical stack, development tools, and interpersonal strengths developed through coursework and real-world projects.</p>
+      </div>
+    </section>
+
+    <section class="content wrap">
+      <div class="three">
+        <article class="skill-card">
+          <div class="symbol">⌘</div>
+          <h3>Programming</h3>
+          <p class="muted">Core programming foundations, data structures, and object-oriented concepts.</p>
+          <div class="chips">
+            <span>C</span>
+            <span>C++</span>
+            <span>Python</span>
+            <span>PHP</span>
+            <span>Java</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="symbol">◇</div>
+          <h3>Web Development</h3>
+          <p class="muted">Frontend and backend tools for building responsive, dynamic web applications.</p>
+          <div class="chips">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Angular</span>
+            <span>Node.js</span>
+            <span>Bootstrap</span>
+            <span>Ajax</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="symbol">▤</div>
+          <h3>Database &amp; Tools</h3>
+          <p class="muted">Relational databases, local web server stacks, and developer tooling.</p>
+          <div class="chips">
+            <span>MySQL</span>
+            <span>WAMP Server</span>
+            <span>Git / GitHub</span>
+            <span>VS Code</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="symbol">⚡</div>
+          <h3>Libraries &amp; Tech</h3>
+          <p class="muted">GUI libraries, mobile exploration, and modern simulated workflows.</p>
+          <div class="chips">
+            <span>Python Tkinter</span>
+            <span>Flutter (Basics)</span>
+            <span>Cloud Fundamentals</span>
+            <span>REST APIs</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="symbol">✦</div>
+          <h3>Professional Strengths</h3>
+          <p class="muted">Interpersonal and execution attributes that foster high team productivity.</p>
+          <div class="chips">
+            <span>Problem Solving</span>
+            <span>Dedication</span>
+            <span>Team Collaboration</span>
+            <span>Adaptability</span>
+            <span>Fast Learner</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="symbol">♫</div>
+          <h3>Creative Interests</h3>
+          <p class="muted">Personal passions that encourage balance, creativity, and perspective.</p>
+          <div class="chips">
+            <span>Singing</span>
+            <span>Tech Exploration</span>
+            <span>Continuous Learning</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© 2026 Snehamol Shiju · All Rights Reserved</span>
+      <span class="foot-designer"><span class="dot"></span> Designed with modern tech &amp; glassmorphism</span>
+      <a href="index.html">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
